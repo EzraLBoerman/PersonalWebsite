@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Entertainment Venue</title>
+    <!--Page Icon-->
+    <link rel="shortcut icon" href="images/house.png" type="image/x-icon">
+    <!--Font Awsome icons (free use)-->
+    <script src="https://kit.fontawesome.com/779277f03e.js" crossorigin="anonymous"></script>
+    <!--Main CSS file-->
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <!--Page Header Section-->
+    <header>
+        <nav>
+        <nav>
+    </header>
+
+    <!--Carousel Section-->
+    <div class="carousel">
+        <!--Items List-->
+        <div class="list">
+            <div class="item" id="venue">
+                <img class="background" src="images/page-banner1.jpg">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-logo" src="images/entertainment_venue_logo.png">
+                    <div class="descr">Events, Live Music, & More</div>
+                    <div class="buttons">
+                        <button type="button" onclick="window.location.href='entertainment-venue.html'">See More</button>
+                        <button type="button" onclick="window.location.href='entertainment-venue.html#services'">Booking Info</button>
+                        <button type="button" onclick="window.location.href='entertainment-venue.html#contact'">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item" id="band">
+                <img class="background" src="images/page-banner2.jpg">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-logo" src="images/the_entertainment_band_&_friends.png">
+                    <div class="descr">Live Music</div>
+                    <div class="buttons">
+                        <button type="button" onclick="window.location.href='entertainment-band.html'">See More</button>
+                        <button type="button" onclick="window.location.href='entertainment-band.html#booking'">Booking Info</button>
+                        <button type="button" onclick="window.location.href='entertainment-band.html#contact'">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item" id="oak-tree">
+                <img class="background" src="images/oak-tree-3.jpg">
+                <div class="content">
+                    <div class="content-overlay"></div>
+                    <img class="content-logo" src="images/image4 copy.png">
+                    <div class="descr">Events Management</div>
+                    <div class="buttons">
+                        <button type="button" onclick="window.location.href='old-oak-tree-productions.html'">See More</button>
+                        <button type="button" onclick="window.location.href='old-oak-tree-productions.html#about'">Booking Info</button>
+                        <button type="button" onclick="window.location.href='old-oak-tree-productions.html#contact'">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Thumbnails-->
+        <div class="thumbnail">
+            <div class="item">
+                <img onclick="window.location.href='entertainment-venue.html'" src="images/page-banner1.jpg">
+                <div class="content">
+                    <div class="title">
+                        Venue
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img onclick="window.location.href='entertainment-band.html'" src="images/page-banner2.jpg">
+                <div class="content">
+                    <div class="title">
+                        Band
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img onclick="window.location.href='old-oak-tree-productions.html'" src="images/oak-tree-3.jpg">
+                <div class="content">
+                    <div class="title">
+                        Event Productions
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Thumbnail Navigation Btns-->
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+
+        <!--Run time for animation-->
+        <div class="time"></div>
+    </div>
+
+    <!--Main JS file-->
+    <script src="js/web-app.js"></script>
+</body>
+</html>
